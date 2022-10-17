@@ -25,7 +25,7 @@ metadata:
   labels:
     node-role.kubernetes.io/external-host: ""
 spec:
-  podCIDR: <IP generated above- for e.g. 172.18.0.4>/32
+  podCIDR: <IP generated above- for e.g. 172.18.0.4>/32>
   taints:
   - effect: NoSchedule
     key: node-role.kubernetes.io/external-host
